@@ -1,4 +1,52 @@
 
 body{
-    background-color: lightgray;
+    background-color: white;
+}
+.jumbotron{
+	background-image: url('../images/seattleSkyCrop.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .85;
+    padding: 180px;
+    align-items: center;
+}
+
+h1
+{
+    color:black;
+    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 800;
+}
+
+h2{
+    color:black;
+    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+hr{
+    text-align: center;
+    height: 5px;
+    color: black;
+
+}
+@media (min-width: 768px){
+
+    h1{
+    color:black;
+    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+}
+
+@media (min-width: 1024px){
+  
+    h1{
+    color:black;
+    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
 }
