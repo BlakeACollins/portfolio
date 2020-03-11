@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Home</title>
@@ -8,13 +8,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--My CSS-->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
     
   </head>
   <body>
       <header>
         <!--Nav Bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -24,70 +28,144 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Experience</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
-        <!--Header Background-->
-            <img src="images/seattleSkyCrop.jpg" class="img-fluid" alt="Seattle Skyline">
-            
+        <!--Jumbotron-->
+        <div class="jumbotron jumbotron-fluid">
+          <h1 class="display-4 text-center font-weight-normal" id="">Hello, I'm Blake.</h1>
+        </div>
       </header>
+
       <main>
-        <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          </div>
-          <!--My profile picture-->
-          <img src="images/BlakeCollins.jpg" class="w-25 h-auto rounded float-right clear-fix" alt="My profile picture" class="img-thumbnail">
+        
+          <!--My profile picture
+          <img src="images/BlakeCollins.jpg" class="w-25 h-auto rounded float-right clear-fix" alt="My profile picture" class="img-thumbnail">-->
+
           <!--Top 6 projects-->
-         <section class="portfolioContainer">
-    
-            <h1 id="portfolio">Portfolio</h1>
-        
-            <div class="project proj-1">
-              <img src="images/portfolio-1.png" alt="portfolio pic" />
-              <h3>Marketing Page</h3>
-              <p class="portolio-text">This project shows the front page for a marketing website meant for Conor's 3d rendering projects</p>
+          <h2 class="display-4 text-center font-weight-normal" id="">I design and develop websites.</h2>
+          <hr class="my-3">
+
+
+            <h2 class="display-4 text-center" id="portfolio">Top 6 Projects</h2>
+
+            <section class="d-flex justify-content-around">
+
+          <!--Project 1-->
+          <div class="card text-center border-secondary bg-light shadow-lg p-3 mb-5 bg-white rounded" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-        
-            <div class="project proj-2">
-              <img src="images/portfolio-2.png" alt="portfolio pic" />
-              <h3>Search Page</h3>
-              <p class="portfolio-text">This project searches throught a specific db to find info that the user is trying to lookup. </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
             </div>
-        
-            <div class="project proj-3">
-              <img src="images/portfolio-3.png" alt="portfolio pic" />
-              <h3>Travel App</h3>
-              <p class="portfolio-text">This project compares travel times based on different transportation methods and tells you the best one.</p>
+          </div>
+
+            <!--Project 2-->
+            <div class="card text-center border-secondary bg-light shadow-lg p-3 mb-5 bg-white rounded" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
             </div>
-        
-            <div class="project proj-4">
-              <img src="images/portfolio-4.png" alt="portfolio pic" />
-              <h3>Map of Favorite Spots</h3>
-              <p class="portfolio-text">This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour. </p>
+
+          <!--Poject 3-->
+          <div class="card text-center border-secondary bg-light shadow-lg p-3 mb-5 bg-white rounded" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-        
-            <div class="project proj-5">
-              <img src="images/portfolio-5.png" alt="portfolio pic" />
-              <h3>Photo Gallery</h3>
-              <p class="portfolio-text">This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
             </div>
-        
-            <div class="project proj-6">
-              <img src="images/portfolio-6.png" alt="portfolio pic" />
-              <h3>Calculator</h3>
-              <p class="portfolio-text">Someone can entry in the numberts they want, and press the big blue button and get the results.</p>
+          </div>
+
+          <!--Porject 4-->
+          <div class="card text-center border-secondary bg-light shadow-lg p-3 mb-5 bg-white rounded" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+
+          <!--Project 5-->
+          <div class="card text-center border-secondary bg-light shadow-lg p-3 mb-5 bg-white rounded" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+
+          <!--Proejct 6-->
+          <div class="card text-center border-secondary bg-light shadow-lg p-3 mb-5 bg-white rounded" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
          </section>
     </main>
 
