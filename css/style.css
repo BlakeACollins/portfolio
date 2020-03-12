@@ -1,14 +1,21 @@
+* {
+    max-width: 100vw;
+  }
 
-body{
-    background-color: white;
-}
+/*Bootstrap Jumbotron Styling*/
 .jumbotron{
-	background-image: url('../images/seattleSkyCrop.jpg');
+	background-image: url('../images/seattleSky.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
     opacity: .85;
-    padding: 180px;
+    padding: 225px;
+    margin-bottom: 1.2em;
     align-items: center;
+}
+/*Element Styling*/
+body{
+    background-color: lightgray;
+    
 }
 
 h1
@@ -16,7 +23,7 @@ h1
     color:black;
     font-family: 'Exo 2', Arial, Helvetica, sans-serif;
     text-align: center;
-    font-weight: 800;
+    font-weight: bolder;
 }
 
 h2{
@@ -25,12 +32,56 @@ h2{
     text-align: center;
     
 }
+h3{
+    color:black;
+    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
+    font-size: 2.25em;
+}
+p{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.35em;
+    line-height: 1.55;
+}
 hr{
     text-align: center;
     height: 5px;
     color: black;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+li{
+    font-size: 1.2em;
+    
 
 }
+.aboutMe{
+    background: rgb(21,11,193);
+    background: linear-gradient(90deg, rgba(21,11,193,1) 0%, rgba(41,100,205,0.46262254901960786) 4%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+    margin-top: 1.5em;
+}
+#profilePic{
+    size: 2em;
+}
+#listSection{
+    background: rgb(21,11,193);
+    background: linear-gradient(90deg, rgba(21,11,193,1) 0%, rgba(41,100,205,0.46262254901960786) 4%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+}
+
+
+/*
+.languages,
+.tools,
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+
+}*/
+
 @media (min-width: 768px){
 
     h1{
