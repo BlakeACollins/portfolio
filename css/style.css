@@ -1,5 +1,9 @@
 * {
-    max-width: 98vw;
+    max-width: 99vw;
+    
+  }
+  html{
+    scroll-behavior: smooth;
     
   }
 
@@ -37,6 +41,8 @@ h3{
     color:black;
     font-family: 'Exo 2', Arial, Helvetica, sans-serif;
     font-size: 2.25em;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 p{
     color:black;
@@ -68,14 +74,16 @@ main{
     padding-top: 1.2em;
     padding-left: 1.5em;
 }
+.projectHeading{
+    color:red;
+    padding-top: 3.5em;
+    padding-bottom: 1.5em;
+}
 #profilePic{
     size: 2em;
+    border-radius: 85px;
 }
-#listSection{
-    background: rgb(21,11,193);
-    background: linear-gradient(90deg, rgba(21,11,193,1) 0%, rgba(41,100,205,0.46262254901960786) 4%, rgba(0,212,255,1) 100%);
-    border-radius: 10px;
-}
+
 
 
 /*
@@ -86,6 +94,26 @@ main{
     flex-direction: row;
 
 }*/
+/* Side Scroll Bar-------------------------------------------------------------------------*/
+::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+    border-radius: 10px;
+    background-color: grey;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: azure;
+    background-image: -webkit-linear-gradient(90deg,transparent rgba(0, 0, 0, 0.4) 50%, transparent, transparent)
+}
 
 @media (min-width: 768px){
 
