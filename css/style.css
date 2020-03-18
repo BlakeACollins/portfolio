@@ -53,9 +53,9 @@ h3{
 p{
     color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.45em;
-    line-height: 1.55em;
-    font-weight: 600;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    font-weight: 400;
 }
 hr{
     text-align: center;
@@ -89,6 +89,9 @@ main{
 #profilePic{
     size: 2em;
     border-radius: 85px;
+}
+button:hover{
+    background-color: red;
 }
 
 
@@ -163,9 +166,12 @@ main{
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background: #275c7b;
     color: white;
     transform: rotateY(180deg);
+  }
+  .flip-card-back p{
+      padding: 10px;
   }
 
 @media (min-width: 768px){

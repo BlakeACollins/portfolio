@@ -13,10 +13,18 @@
 	background-size: cover;
     background-repeat: no-repeat;
     opacity: .85;
-    padding: 225px;
+    padding: 275px;
     margin-bottom: 1.2em;
     align-items: center;
 }
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f00;
+    
+  }
 /*Element Styling*/
 body{
     background: url('../images/abstractBackground.jpg')
@@ -161,9 +169,12 @@ main{
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background: #275c7b;
     color: white;
     transform: rotateY(180deg);
+  }
+  .flip-card-back p{
+      padding: 10px;
   }
 @media (min-width: 768px){
 
