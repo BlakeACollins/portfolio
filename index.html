@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
     
   </head>
   <body>
+    
       <header>
         <!--Nav Bar-->
         <nav class="navbar nav-fill navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -39,6 +41,7 @@
             </ul>
           </div>
         </nav>
+        <div class="transition"></div>
           <!--Jumbotron-->
           <div class="jumbotron jumbotron-fluid">
             <h1 class="display-4 text-center font-weight-bold" id="">Hello, I'm Blake.</h1>
@@ -53,25 +56,29 @@
           <h3 class="display-4"><u>About Me</u></h3>
               <!--My profile picture-->
               <img src="images/BlakeCollins.jpg" class="rounded-circle w-25 h-auto p-4 float-right clear-fix" alt="My profile picture" class="img-thumbnail" id="profilePic">
-              <p>Hello and welcome to my portfolio! I was introduced to web development by a friend. I am a self-taught web developer working hard to learn as much as I can. Udacity and Treehouse have helped in my web development journey.</p>
-              <p>I am approaching the end of the Front End Web Developer Techdegree and I'm on the search for internships, freelance jobs, or junior web design/developer positions. Thank you and please check out my projects!</p>
+              <p>Hello and welcome to my portfolio! I am a soon to be graduate of Treehouse's Front-End Web Developer boot camp. I
+              have a strong interest / passion for front end technologies and I'm looking forward to gaining
+              some real-world experience!</p>
+              <p> Thank you and please check out my projects!</p>
 
               <!--Skill/Tools/Contact information-->
               <section class= "d-flex justify-content-around" id="listSection">
               <div class="languages">
-                <h3><u>Languages Used</u></h3>
+                <h3><u>Favortie Languages</u></h3>
                 <ul>
                   <li class="font-weight-bold">HTML</li>
                   <li class="font-weight-bold">CSS</li>
+                  <li class="font-weight-bold">Bootstrap</li>
                   <li class="font-weight-bold">JavaScript</li>
                   <li class="font-weight-bold">jQuery</li>
-                  <li class="font-weight-bold">Bootstrap</li>
+                  <li class="font-weight-bold">Vue</li>
                 </ul>
               </div>
       
               <div class="tools">
                 <h3><u>Tools Used</u></h3>
                 <ul>
+                  <li class="font-weight-bold">Balsamiq</li>
                   <li class="font-weight-bold">VS Code</li>
                   <li class="font-weight-bold">Slack</li>
                   <li class="font-weight-bold">GitHub</li>
@@ -113,8 +120,11 @@
                     <h2>Nun Chuck's Brewery</h2><br>
                     <p>This is my first freelance job. I was approached by a local craft brewer to build his website. This is an ongoing project with updates every quarter.</p>
                     <p>Made with HTML, CSS, and Bootstrap.</p>
-                    <a href="https://github.com/BlakeACollins/NunChucksBrewing"><button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false" id="learnNunChuck">Learn More</button></a>
-                    <button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false">Check It Out</button>
+
+                    <a href="https://github.com/BlakeACollins/NunChucksBrewing"><button id="button" type="button" class="btn btn-light btn-lg" data-toggle="button" aria-pressed="false" id="learnNunChuck"><span>Learn More</button></span></a>
+
+
+                    <button id="button" type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false"><span>Check It Out</span></button>
                   </div>
                 </div>
               </div>
@@ -128,8 +138,10 @@
                     <h2>Pixel Art Maker</h2><br>
                     <p>A single-page web app that allows users to draw pixel art on a customizable canvas. </p>
                     <p>Made with HTML, CSS, and JavaScript</p><br>
-                    <a href="https://github.com/BlakeACollins/Pixel-Art-Marker"><button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false">Learn More</button></a>
-                    <button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false">Check It Out</button>
+
+                    <a href="https://github.com/BlakeACollins/Pixel-Art-Marker"><button id="button" type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false"><span>Learn More</span></button></a>
+
+                    <button id="button" type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false"><span>Check It Out</span></button>
                   </div>
                 </div>
               </div>
@@ -143,8 +155,9 @@
                     <h2>Random Employee API</h2><br>
                     <p>I made a single page app that pulls and parses data from a 3rd party API and manipulates the HTML DOM using JavaScript.</p>
                     <p>Made with HTML, CSS, JavaScript, JSON</p>
-                    <a href="https://github.com/BlakeACollins/APIEmployeeDirectory"><button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false">Learn More</button></a>
-                    <button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false">Check It Out</button>
+
+                    <a href="https://github.com/BlakeACollins/APIEmployeeDirectory"><button id="button" type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false">Learn More</button></a>
+                    <button id="button" type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false"><span>Check It Out</span></button>
                   </div>
                 </div>
               </div>
@@ -158,8 +171,9 @@
                     <h2>Web App Dashboard</h2><br>
                     <p>I was provided with a mock up and had to replicate a web app dashboard, complete with JavaScript-driven charts and graphs.</p>
                     <p>Made with HTML, CSS, JavaScript, jQuery</p>
-                    <a href="https://github.com/BlakeACollins/WedAppDashboard"><button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false">Learn More</button></a>
-                    <button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false">Check It Out</button>
+
+                    <a href="https://github.com/BlakeACollins/WedAppDashboard"><button id="button" type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false">Learn More</button></a>
+                    <button id="button" type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false"><span>Check It Out</span></button>
                   </div>
                 </div>
               </div>
@@ -184,5 +198,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/transition.js"></script>
   </body>
 </html>

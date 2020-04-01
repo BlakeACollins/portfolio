@@ -52,7 +52,7 @@ h3{
 }
 p{
     color:black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Inter', 'Times New Roman', Times, serif;
     font-size: 1.5em;
     line-height: 1.3em;
     font-weight: 500;
@@ -78,6 +78,7 @@ main{
     border-radius: 10px;
     margin-top: 1.5em;
 }
+/*ABOUT ME SECTION*/
 .aboutMe{ 
     padding-top: 1.2em;
     padding-left: 1.5em;
@@ -90,6 +91,7 @@ main{
 #profilePic{
     size: 2.5em;
 }
+
 
 footer{
     background-color: lightblue;
@@ -155,6 +157,54 @@ footer{
     padding: 10px;
     
   }
+  /*STYLING FOR THE PROJECT FLIP CARDS*/
+.flip-card-back h2 {
+    padding-top: 8px;
+}
+
+.flip-card-back p {
+    font-size: 1.35em;
+}
+  
+#button {
+    position: relative;
+    background-color: /*#008CBA*/#bbb;
+     border: 1px solid black;
+     border-radius: 35px;
+    color: black;
+    padding: 20px 20px;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 155px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  #button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
   
   /* This container is needed to position the front and back side */
   .flip-card-inner {
