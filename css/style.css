@@ -7,13 +7,16 @@
     
   }
 
+ 
+ 
+
 /*Bootstrap Jumbotron Styling*/
 .jumbotron{
 	background-image: url('../images/seattleSky.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
     opacity: .85;
-    padding: 225px;
+    padding: 200px;
     margin-bottom: 1.2em;
     align-items: center;
 }
@@ -88,10 +91,6 @@ main{
     padding-top: 3.5em;
     padding-bottom: 1.5em;
 }
-#profilePic{
-    size: 2.5em;
-}
-
 
 footer{
     background-color: lightblue;
@@ -101,7 +100,7 @@ footer{
 
 /*Hover effects for GitHub, Link, and Facebook*/
 .githubLogo{
-    opacity: 1.5;
+    opacity: 1;
     transition: 0.3s;
 }     
 .githubLogo:hover{
@@ -110,7 +109,7 @@ footer{
 }
 
 .linkLogo{
-    opacity: 1.5;
+    opacity: 1;
     transition: 0.3s;
 }
 
@@ -120,7 +119,7 @@ footer{
 }
 
 .facebookLogo{
-    opacity: 1.5;
+    opacity: 1;
     transition: 0.3s;
 }
 .facebookLogo:hover{
@@ -166,7 +165,7 @@ footer{
     font-size: 1.35em;
 }
   
-#button {
+.btn {
     position: relative;
     background-color: /*#008CBA*/#bbb;
      border: 1px solid black;
@@ -185,7 +184,7 @@ footer{
     cursor: pointer;
   }
   
-  #button:after {
+  .btn:after {
     content: "";
     background: #90EE90;
     display: block;
@@ -198,7 +197,7 @@ footer{
     transition: all 0.8s
   }
   
-  #button:active:after {
+  .btn:active:after {
     padding: 0;
     margin: 0;
     opacity: 1;
