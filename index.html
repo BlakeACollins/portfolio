@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
   </head>
   <body>    
@@ -46,7 +47,7 @@
 
         <!--Jumbotron-->
     <div class="jumbotron jumbotron-fluid">
-      <h1 class="display-3 text-center font-weight-bold">Hello, I'm Blake.</h1>
+      <h1 class="display-3 text-center font-weight-bolder">Hello, I'm Blake.</h1>
     </div>
     <h2 class="display-4 text-center font-weight-bold">I develop websites.</h2>
         
@@ -58,7 +59,7 @@
           <div class="aboutMe">
           <h3 class="display-4"><u>About Me</u></h3>
               <!--My profile picture-->
-              <img src="images/BlakeCollins.jpg" class="rounded-circle w-25 h-auto p-4 float-right clear-fix" alt="My profile picture" id="profilePic">
+              <img src="images/BlakeCollins.jpg" class="rounded-circle w-25 h-auto float-right clear-fix" alt="My profile picture" id="profilePic">
               <p>Hello and welcome to my portfolio! I am a soon to be graduate of Treehouse's Front-End Web Developer boot camp. I
               have a strong interest / passion for front-end technologies. I'm looking forward to gaining real-world experience!</p>
               <p> Thank you and please check out my projects!</p>
@@ -80,7 +81,9 @@
               <div class="tools">
                 <h3><u>Tools Used</u></h3>
                 <ul>
+                  <li class="font-weight-bold">Balsamiq</li>
                   <li class="font-weight-bold">VS Code</li>
+                  <li class="font-weight-bold">Atom</li>
                   <li class="font-weight-bold">Slack</li>
                   <li class="font-weight-bold">GitHub</li>
                 </ul>
@@ -104,81 +107,114 @@
             </div>
           </section>
         </div>
-     
-   <!--Top 4 projects-->
+
+     <!--Favorite Projects-->
             <div class="projectHeading">
-              <h3 class="display-4 text-center p-5" id="projectHeading"><u>Favorite Projects</u></h3>
+              <h2 class="display-3 text-center p-5" id="projectHeading"><u>Favorite Projects</u></h2>
             </div>
-            
-            <div class="row row-cols-1 row-cols-md-2 p-5">
-              <!--Card 1 Nun Chucks-->
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="images/NunChuck'sLogo.png" alt="Nun Chuck logo" style="width:355px;height:355px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h2>Nun Chuck's Brewery</h2><br>
-                    <p>This is my first freelance job. I was approached by a local craft brewer to build his website. This is an ongoing project with updates every quarter.</p>
-                    <p>Made with HTML, CSS, and Bootstrap.</p>
 
-                    <a href="https://github.com/BlakeACollins/NunChucksBrewing"><button class="btn btn-light btn-lg" data-toggle="button" aria-pressed="false"><span>Learn More</span></button></a>
+            <div class="portfolio-container">
 
-
-                    <button class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false"><span>Check It Out</span></button>
-                  </div>
-                </div>
+              <!--Project 1 Pixel Art Maker-->
+              <div class="project proj-1">
+                <img src="images/pixelArt.png" alt="portfolio pic" />
+                <h3 id="project1"></h3>
+                <p id="description1" class="portolio-text"></p>
+                <h3>Languages Used</h3>
+                <p id="lang1"></p>
+                <button id="btn">LEARN MORE</button>
+                <button id="btn">LEARN MORE</button>
               </div>
-            <!--Card 2 Pixel Art Maker -->
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="images/pixelArt.png" alt="Avatar" style="width:355px;height:360px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h2>Pixel Art Maker</h2><br>
-                    <p>A single-page web app that allows users to draw pixel art on a customizable canvas. </p>
-                    <p>Made with HTML, CSS, and JavaScript</p><br>
 
-                    <a href="https://github.com/BlakeACollins/Pixel-Art-Marker"><button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false"><span>Learn More</span></button></a>
-
-                    <button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false"><span>Check It Out</span></button>
-                  </div>
-                </div>
+              <!--Project 2 Nun Chuck's Brewing-->
+              <div class="project proj-2">
+                <img src="images/NunChuck'sLogo.png" alt="portfolio pic" />
+                <h3 id="project2"></h3>
+                <p id="description2" class="portfolio-text"></p>
+                <h3>Languages Used</h3>
+                <p id="lang2"></p>
+                <button>LEARN MORE</button>
+                <button>LEARN MORE</button>
               </div>
-              <!--Card 3 Random Employee API -->
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="images/employeeAPI.png" alt="Avatar" style="width:355px;height:360px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h2>Random Employee API</h2><br>
-                    <p>I made a single page app that pulls and parses data from a 3rd party API and manipulates the HTML DOM using JavaScript.</p>
-                    <p>Made with HTML, CSS, JavaScript, JSON</p>
 
-                    <a href="https://github.com/BlakeACollins/APIEmployeeDirectory"><button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false">Learn More</button></a>
-                    <button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false"><span>Check It Out</span></button>
-                  </div>
-                </div>
+              <!--Project 3 Random Employee API-->
+              <div class="project proj-3">
+                <img src="images/crop.png" alt="" />
+                <h3 id="project3"></h3>
+                <p id="description3" class="portfolio-text"></p>
+                <h3>Languages Used</h3>
+                <p id="lang3"></p>
+                <button>LEARN MORE</button>
+                <button>LEARN MORE</button>
               </div>
-              <!--Card 4 Web App Dashboard -->
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="images/webDesign.jpg" alt="Avatar" style="width:355px;height:360px;">
-                  </div>
-                  <div class="flip-card-back">
-                    <h2>Web App Dashboard</h2><br>
-                    <p>I was provided with a mock up and had to replicate a web app dashboard, complete with JavaScript-driven charts and graphs.</p>
-                    <p>Made with HTML, CSS, JavaScript, jQuery</p>
 
-                    <a href="https://github.com/BlakeACollins/WedAppDashboard"><button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false">Learn More</button></a>
-                    <button type="button" class="btn btn-light btn-lg active" data-toggle="button" aria-pressed="false"><span>Check It Out</span></button>
-                  </div>
-                </div>
+              <!--Project 4 Web App Dashboard-->
+              <div class="project proj-4">
+                <img src="images/web.png" alt="" />
+                <h3 id="project4"></h3>
+                <p id="description4" class="portfolio-text"></p>
+                <h3>Languages Used</h3>
+                <p id="lang4"></p>
+                <button>LEARN MORE</button>
+                <button>LEARN MORE</button>
+              </div>
+
+              <!--Project 5 Game Show -->
+              <div class="project proj-5">
+                <img src="images/gameShow.png" alt="portfolio pic" />
+                <h3 id="project5"></h3>
+                <p id="description5" class="portfolio-text"></p>
+                <h3>Languages Used</h3>
+                <p id="lang5"></p>
+                <button>LEARN MORE</button>
+                <button>LEARN MORE</button>
+              </div>
+
+              <!--Project 6 INTERACTIVE PHOTO GALLERY-->
+              <div class="project proj-6">
+                <img src="images/photo.png" alt="portfolio pic" />
+                <h3 id="project6"></h3>
+                <p id="description6" class="portfolio-text"></p>
+                <h3>Languages Used</h3>
+                <p id="lang6"></p>
+                <button>LEARN MORE</button>
+                <button>LEARN MORE</button>
+              </div>
+
+              <!--Project 7 FLASH CARD WITH VUE-->
+              <div class="project proj-1">
+                <img src="images/flashcard.png" alt="portfolio pic" />
+                <h3 id="project7"></h3>
+                <p id="description7" class="portfolio-text"></p>
+                <h3>Languages Used</h3>
+                <p id="lang7"></p>
+                <button>LEARN MORE</button>
+                <button>LEARN MORE</button>
+              </div>
+
+              <!--Project 8 WEB STYLE GUIDE PROJECT-->
+              <div class="project proj-2">
+                <img src="images/webPage.png" alt="portfolio pic" />
+                <h3 id="project8"></h3>
+                <p id="description8" class="portfolio-text"></p>
+                <h3>Languages Used</h3>
+                <p id="lang8"></p>
+                <button>LEARN MORE</button>
+                <button>LEARN MORE</button>
+              </div>
+
+              <!--Project 9 Rock,Paper, Scissors-->
+              <div class="project proj-3">
+                <img src="images/rockPaper.png" alt="portfolio pic" />
+                <h3 id="project9"></h3>
+                <p id="description9" class="portfolio-text"></p>
+                <h3>Language Used</h3>
+                <p id="lang9"></p>
+                <button>LEARN MORE</button>
+                <button>LEARN MORE</button>
               </div>
             </div>
+        
     </main>
 
 <footer id="footer" class="navbar navbar-expand-sm bg-light d-flex justify-content-around">
@@ -198,6 +234,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <script src="js/webProjects.js"></script>
   </body>
 </html>
+
+
+
