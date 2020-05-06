@@ -1,0 +1,253 @@
+* {
+  text-align: center;
+  margin: 8px;
+}
+
+body {
+  padding: 5px;
+  background: lightgrey
+}
+
+
+
+h1,
+h2,
+h3,
+p,
+li {
+  color: black !important;
+  font-family: 'Big Shoulders Text', sans-serif, arial;
+  font-size: 1.35em;
+}
+h3 {
+  font-family: 'Nunito', sans-serif, arial;
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 100%;
+}
+img:hover {
+  transform: scale(1.2);
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Oxygen Mono', sans-serif, arial;
+  list-style: none;
+}
+
+
+
+.nav li,
+h2 {
+  list-style: none;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: 20px;
+}
+
+
+
+#top {
+  text-transform: uppercase;
+}
+
+.top {
+    margin: 16px 0;
+}
+
+a {
+  text-decoration: none;
+  color: Black;
+}
+
+a:visited {
+  color:black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.profile-pic {
+  padding-top: 50px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.portfolio-container {
+  padding-bottom: 10px;
+}
+
+#portfolio {
+  padding: 40px;
+}
+
+.project {
+  padding-bottom: 25px;
+}
+
+.contact-info {
+  font-weight: 700;
+}
+
+.name{
+  font-size: 1.5em;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 700;
+  border-top: 1px solid black;
+  margin-top: 100px;
+}
+
+.nav-footer {
+  display: none;
+}
+
+
+/*Media Query*/
+
+
+
+@media screen and (min-width: 768px) {
+
+  .nav {
+    display: inline-flex;
+  }
+
+/* issue with getting the bio class to align left and the profile image to aling right.
+ Decided to mess with flex-directon more. Now bio and image are in position but image is tiny.*/
+
+
+.bio-container{
+ display: inline-flex;
+ flex-direction: row-reverse;
+}
+
+  img {
+    transition-duration: .5s;
+  }
+
+
+  .profile-pic {
+    padding-top: 0;
+    width: 90%;
+    height: 100%;
+  }
+
+  .project {
+    float: left;
+    width: 45%;
+    margin:auto;
+  }
+
+  .project:nth-child(even) {
+    margin-right: 7%;
+  }
+
+  .project img {
+    max-width: 108%;
+  }
+
+  #portfolio{
+    font-size:2em;
+  }
+  .portfolio-text {
+    font-size: 1.5em;
+  }
+
+  .contact-container {
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .contact-text {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .nav-footer {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: navy;
+  }
+
+  .nav-footer li {
+    list-style: none;
+    padding-left: 20px;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+  body {
+    padding-bottom: 0;
+    padding-top: 25px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav {
+    margin: initial;
+    align-items: center;
+  }
+
+  .bio {
+    text-align: left;
+    font-size: 1.5em;
+    width:50%;
+  }
+
+  .portfolio-container {
+    margin-bottom: 100px;
+  }
+
+  .project:nth-child(even) {
+    margin-right: initial;
+  }
+
+  .project.proj-1,
+  .project.proj-2,
+  .project.proj-4,
+  .project.proj-5 {
+    margin-right: 5%;
+  }
+
+  .project {
+    width: 30%;
+  }
+
+  .project img {
+    max-width: 100%;
+  }
+
+  .contact-container {
+    max-width: 50%;
+    margin-top: 10%;
+  }
+}
