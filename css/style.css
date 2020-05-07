@@ -10,10 +10,18 @@ html{
 	  background-image: url('../images/seattleSky.jpg');
   	background-size: cover;
     background-repeat: no-repeat;
-    opacity: .85;
-    padding: 200px;
+    opacity: .8;
+    padding: 100px;
     margin-bottom: 1.2em;
     text-align: center;
+}
+/*Hello, I'm Blake.*/ 
+h1{
+  color: black;
+}
+/*I develope websites.*/
+h2{
+  padding: 55px;
 }
 /*Hover effects for GitHub, Link, and Facebook*/
 .githubLogo{
