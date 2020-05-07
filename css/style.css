@@ -1,130 +1,173 @@
 * {
-    max-width: 99vw;
-    
-  }
-  html{
-    scroll-behavior: smooth;
-    
-  }
-
- 
- 
-
+  text-align: center;
+  margin: .5px;
+}
+html{
+  scroll-behavior: smooth;
+}
 /*Bootstrap Jumbotron Styling*/
 .jumbotron{
-	background-image: url('../images/seattleSky.jpg');
-	background-size: cover;
+	  background-image: url('../images/seattleSky.jpg');
+  	background-size: cover;
     background-repeat: no-repeat;
     opacity: .85;
     padding: 200px;
     margin-bottom: 1.2em;
     align-items: center;
 }
-/*Element Styling*/
-body{
-    background: url('../images/abstractBackground.jpg')
-     no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    max-width: 100vw;
-}
-
-h1
-{
-    color:black;
-    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-weight: bolder;
-}
-
-h2{
-    color:black;
-    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-weight: 600;
-}
-h3{
-    color:black;
-    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
-    font-size: 2.25em;
-    padding-top: 15px;
-    padding-bottom: 8px;
-    font-weight: 600;
-}
-p{
-    color:black;
-    font-family: 'Inter', 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    line-height: 1.3em;
-    font-weight: 500;
-}
-hr{
-    text-align: center;
-    height: 5px;
-    color: black;
-}
-ul{
-    list-style-type: none;
-    padding-left: 0;
-    font-size: 1em;
-    font-weight: 600;
-}
-li{
-    font-size: 1.2em;
-    font-weight: 500;
-    color: black;
-
-}
-main{
-    border-radius: 10px;
-    margin-top: 1.5em;
-}
-/*ABOUT ME SECTION*/
-.aboutMe{ 
-    padding-top: 1.2em;
-    padding-left: 1.5em;
-}
-.projectHeading{
-    color:red;
-    padding-top: 3.5em;
-    padding-bottom: 1.5em;
-}
-
-footer{
-    background-color: lightblue;
-    text-align: center;
-
-}
-
 /*Hover effects for GitHub, Link, and Facebook*/
 .githubLogo{
-    opacity: 1;
-    transition: 0.3s;
+  opacity: 1;
+  transition: 0.4s;
 }     
 .githubLogo:hover{
-    transform: scale(1.2);
-    opacity: 0.5;
+  transform: scale(1.2);
+  opacity: 0.5;
 }
 
 .linkLogo{
-    opacity: 1;
-    transition: 0.3s;
+  opacity: 1;
+  transition: 0.4s;
 }
 
 .linkLogo:hover{
-    transform: scale(1.2);
-    opacity: 0.5;
+  transform: scale(1.2);
+  opacity: 0.5;
 }
 
 .facebookLogo{
-    opacity: 1;
-    transition: 0.3s;
+  opacity: 1;
+  transition: 0.4s;
 }
 .facebookLogo:hover{
-    transform: scale(1.2);
-    opacity: 0.5;
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+body {
+  padding: 5px;
+  background: lightgrey
+}
+
+h1,
+h2,
+h3,
+p,
+li {
+  color: black !important;
+  font-family: 'Big Shoulders Text', sans-serif, arial;
+  font-size: 1.35em;
+}
+
+img {
+  max-width: 100%;
+}
+img:hover {
+  transform: scale(1);
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Oxygen Mono', sans-serif, arial;
+  list-style: none;
+}
+
+.nav li,
+h2 {
+  list-style: none;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.portfolio-container {
+  padding-bottom: 10px;
+}
+
+#portfolio {
+  padding: 40px;
+}
+
+.project {
+  padding-bottom: 25px;
+}
+
+/*Media Query----------------------------*/
+
+@media screen and (min-width: 768px) {
+
+  .nav {
+    display: inline-flex;
+  }
+
+  img {
+    transition-duration: .5s;
+  }
+
+
+  .profile-pic {
+    padding-top: 0;
+    width: 90%;
+    height: 100%;
+  }
+
+  .project {
+    float: left;
+    width: 45%;
+    margin:auto;
+  }
+
+  .project:nth-child(even) {
+    margin-right: 7%;
+  }
+
+  .project img {
+    max-width: 100%;
+  }
+
+  #portfolio{
+    font-size:2em;
+  }
+ 
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+  body {
+    padding-bottom: 0;
+    padding-top: 25px;
+  }
+
+  
+  .portfolio-container {
+    margin-bottom: 100px;
+  }
+
+  .project:nth-child(even) {
+    margin-right: initial;
+  }
+
+  .project.proj-1,
+  .project.proj-2,
+  .project.proj-4,
+  .project.proj-5 {
+    margin-right: 5%;
+  }
+
+  .project {
+    width: 30%;
+  }
+
+  .project img {
+    max-width: 100%;
+  }
+
 }
 
 /* Side Scroll Bar-------------------------------------------------------------------------*/
@@ -147,141 +190,3 @@ footer{
     background-color: azure;
     background-image: -webkit-linear-gradient(90deg,transparent rgba(0, 0, 0, 0.4) 50%, transparent, transparent)
 }
-/*Flip Card*/
-.flip-card {
-    background-color: transparent;
-    width: 380px;
-    height: 380px;
-    perspective: 1000px; 
-    padding: 10px;
-    
-  }
-  /*STYLING FOR THE PROJECT FLIP CARDS*/
-.flip-card-back h2 {
-    padding-top: 8px;
-}
-
-.flip-card-back p {
-    font-size: 1.35em;
-}
-  
-.btn {
-    position: relative;
-    background-color: /*#008CBA*/#bbb;
-     border: 1px solid black;
-     border-radius: 35px;
-    color: black;
-    padding: 20px 20px;
-    font-size: 1.1em;
-    font-weight: 600;
-    letter-spacing: 1px;
-    width: 155px;
-    text-align: center;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
-  }
-  
-  .btn:after {
-    content: "";
-    background: #90EE90;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
-  }
-  
-  .btn:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-  }
-
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    
-  }
-  
-  /* Do an horizontal flip when you move the mouse over*/
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-    border-radius: 25px;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
-    background: #275c7b;
-    color: white;
-    transform: rotateY(180deg);
-    border-radius: 25px;
-  }
-  .flip-card-back p{
-      padding: 10px;
-  }
-
-@media (min-width: 768px){
-
-    h1{
-    color:black;
-    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-
-}
-
-@media (min-width: 1024px){
-  
-    h1{
-    color:black;
-    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-}
-
-
-/* <!--My Contact Information-->
-      <div class="contactInfo">
-        <h3>Thank you for visiting!</h3>
-        <ul>
-          <li class="font-weight-bold">Blake Collins</li>
-          <li class="font-weight-bold">Seattle, WA</li>
-          <li class="font-weight-bold">blakeac369@gmail.com</li>
-         <!--Socail Links-->
-                <!--GitHub Link-->
-                <a href="https://github.com/BlakeACollins"><img class="githubLogo" src="https://img.icons8.com/ios-filled/50/000000/github.png"/></a> 
-                <!--Linkedin Link-->
-                <a href="https://www.linkedin.com/in/blake-collins-084668140/"><img class="linkLogo" src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"/></a>
-                <!--Facebook-->
-                <a href="https://www.facebook.com/blake.collins.3958"><img class="facebookLogo" src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png"/></a>
-        </ul>
-      </div>*/
