@@ -15,13 +15,27 @@ html{
     margin-bottom: 1.2em;
     text-align: center;
 }
+body {
+  margin: 1px;
+  background: lightgrey
+}
 /*Hello, I'm Blake.*/ 
 h1{
   color: black;
 }
 /*I develope websites.*/
 h2{
-  padding: 55px;
+  padding: 75px;
+}
+/*PROJECT TITLE AND LANGUAGES USED*/
+h3{
+  padding: 20px;
+}
+
+/*MY FAVORITE PROJECTS*/
+#projectHeading{
+  font-size: 4em;
+  padding: 85px;
 }
 /*Hover effects for GitHub, Link, and Facebook*/
 .githubLogo{
@@ -51,35 +65,31 @@ h2{
   transform: scale(1.2);
   opacity: 0.5;
 }
-body {
-  margin: 1px;
-  background: lightgrey
-}
 
 img {
-  max-width: 100%;
+  max-width: 95vw;
 }
 img:hover {
   transform: scale(1);
 }
 
-ul {
-  display: flex;
-  justify-content: space-between;
-  font-family: 'Oxygen Mono', sans-serif, arial;
-  list-style: none;
-}
-
 .portfolio-container {
   padding-bottom: 10px;
 }
-
-#portfolio {
-  padding: 40px;
+/*PORJECT DESCRIPTION*/
+.project p{
+  font-size: 1.2em;
+  padding: 5px;
 }
-
 .project {
   padding-bottom: 25px;
+}
+button{
+  margin: 10px;
+  padding: 8px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  border-radius: 35px;
 }
 
 /*Media Query----------------------------*/
