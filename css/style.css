@@ -10,7 +10,7 @@ html{
 	  background-image: url('../images/seattleSky.jpg');
   	background-size: cover;
     background-repeat: no-repeat;
-    opacity: .8;
+    opacity: .9;
     padding: 100px;
     margin-bottom: 1.2em;
     text-align: center;
@@ -23,6 +23,7 @@ body {
 h1{
   font-family:'Open Sans', Arial, Helvetica, sans-serif;
   color: black;
+  
 }
 /*I develope websites.*/
 h2{
@@ -36,17 +37,27 @@ h3{
   padding-top: 30px;
   padding-bottom: 15px;
 }
+/*P element for the ABout ME section*/
+p{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+}
 #projectHeading{
   text-align: center;
   font-size: 4em;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-/*PORJECT DESCRIPTION*/
-p{
+/* P element for PORJECT DESCRIPTION*/
+.project p{
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 1.3em;
-  padding: 5px;
+  font-size: 1.5em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/*h3 element styling for project titles and languages used*/
+.project h3{
+  font-size: 2em;
 }
 hr{
   margin: 20px;
@@ -56,8 +67,6 @@ hr{
 .langUsed{
   padding-bottom: 45px;
 }
-
-/*MY FAVORITE PROJECTS*/
 
 /*Hover effects for GitHub, Link, and Facebook*/
 .githubLogo{
@@ -103,7 +112,7 @@ img:hover {
   padding-bottom: 25px;
 }
 .project img{
-  padding: 40px;
+  padding: 20px;
 } 
 .project button{
   text-align: center;
