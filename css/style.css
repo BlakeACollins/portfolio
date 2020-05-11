@@ -7,7 +7,7 @@ html{
 }
 /*Bootstrap Jumbotron Styling*/
 .jumbotron{
-	  background-image: url('../images/seattleSky.jpg');
+	  background-image: url('../images/seattleSky-min.jpg');
   	background-size: cover;
     background-repeat: no-repeat;
     opacity: .9;
@@ -40,7 +40,8 @@ h3{
 /*P element for the ABout ME section*/
 p{
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  padding: 5px;
 }
 #projectHeading{
   text-align: center;
@@ -99,7 +100,7 @@ hr{
 
 img {
   align-items: center;
-  max-width: 95vw;
+  max-width: 96vw;
 }
 img:hover {
   transform: scale(1);
@@ -134,6 +135,9 @@ img:hover {
   color: white;
 }
 
+footer{
+  margin: 10px;
+}
 
 /*Media Query----------------------------*/
 

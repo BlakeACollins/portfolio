@@ -1,10 +1,9 @@
 * {
     max-width: 99vw;
-    
+    text-align: center;
   }
   html{
     scroll-behavior: smooth;
-    
   }
 
 /*Bootstrap Jumbotron Styling*/
@@ -13,79 +12,32 @@
 	background-size: cover;
     background-repeat: no-repeat;
     opacity: .85;
-    padding: 225px;
+    padding: 100px;
     margin-bottom: 1.2em;
-    align-items: center;
+    
 }
 /*Element Styling*/
 body{
-    background: url('../images/abstractBackground.jpg')
-    no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-    
+   background-color: lightgrey;
 }
 
 h1
 {
     color:black;
-    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-weight: bolder;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 h2{
     color:black;
-    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
-    text-align: center;
-    
-}
-h3{
-    color:black;
-    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
-    font-size: 2.25em;
-    padding-top: 15px;
-    padding-bottom: 5px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 p{
     color:black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
     font-size: 1.45em;
     line-height: 1.65em;
 }
-hr{
-    text-align: center;
-    height: 5px;
-    color: black;
-}
-ul{
-    list-style-type: none;
-    padding-left: 0;
-}
-li{
-    font-size: 1.2em;
-    color: black;
 
-}
-main{
-    border-radius: 10px;
-    margin-top: 1.5em;
-}
-.aboutMe{ 
-    padding-top: 1.2em;
-    padding-left: 1.5em;
-}
-.projectHeading{
-    color:red;
-    padding-top: 3.5em;
-    padding-bottom: 1.5em;
-}
-#profilePic{
-    size: 2em;
-    border-radius: 85px;
-}
 
 /*Hover effects for GitHub, Link, and Facebook*/
 .githubLogo{
@@ -116,15 +68,6 @@ main{
     opacity: 0.5;
 }
 
-
-/*
-.languages,
-.tools,
-.contactInfo{
-    display: flex;
-    flex-direction: row;
-
-}*/
 /* Side Scroll Bar-------------------------------------------------------------------------*/
 ::-webkit-scrollbar-track
 {
@@ -145,69 +88,17 @@ main{
     background-color: azure;
     background-image: -webkit-linear-gradient(90deg,transparent rgba(0, 0, 0, 0.4) 50%, transparent, transparent)
 }
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-    background-color: transparent;
-    width: 380px;
-    height: 380px;
-    /*border: 1px solid #f1f1f1;*/
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    padding: 10px;
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
+footer{
     position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg);
-  }
-
+    bottom: 0;
+}
 @media (min-width: 768px){
 
-    h1{
-    color:black;
-    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
+    
 
 }
 
 @media (min-width: 1024px){
   
-    h1{
-    color:black;
-    font-family: 'Exo 2', Arial, Helvetica, sans-serif;
-    text-align: center;
-}
+   
 }
