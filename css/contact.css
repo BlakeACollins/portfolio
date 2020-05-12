@@ -11,7 +11,7 @@
 	background-image: url('../images/macOntable-min-square-min.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
-    padding: 225px;
+    padding: 100px;
     margin-bottom: 1.5em;
     opacity: .8;
 }
@@ -24,6 +24,7 @@ h1
 {
     color:black;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 4em;
 }
 
 h2{
@@ -44,7 +45,7 @@ p{
 
 /*Hover effects for GitHub, Link, and Facebook*/
 .githubLogo{
-    opacity: 1.5;
+    opacity: 1;
     transition: 0.3s;
 }     
 .githubLogo:hover{
@@ -53,7 +54,7 @@ p{
 }
 
 .linkLogo{
-    opacity: 1.5;
+    opacity: 1;
     transition: 0.3s;
 }
 
@@ -63,7 +64,7 @@ p{
 }
 
 .facebookLogo{
-    opacity: 1.5;
+    opacity: 1;
     transition: 0.3s;
 }
 .facebookLogo:hover{
@@ -96,7 +97,7 @@ h2{
 }
 p{
         color:black;
-        font-family: 'Roboto', 'Times New Roman', Times, serif;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
         font-size: 2em;
         line-height: 1.5em;
     }

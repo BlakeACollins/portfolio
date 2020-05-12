@@ -11,7 +11,7 @@
 	background-image: url('../images/macOntable-min-square-min.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
-    padding: 55px;
+    padding: 100px;
     margin-bottom: 1.5em;
     opacity: .8;
 }
@@ -44,14 +44,15 @@ h1
     color:black;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     text-align: center;
-    font-weight: bolder;   
+    font-weight: bolder; 
+    font-size: 3em;  
 }
 
 h2{
     color:black;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     text-align: center;
-    
+    font-size: 4em;
 }
 h3{
     color:black;
@@ -135,7 +136,7 @@ h3{
 }
 p{
         color:black;
-        font-family: 'Roboto', 'Times New Roman', Times, serif;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
         font-size: 2.2em;
         line-height: 1.75em;
         margin: 10px;
