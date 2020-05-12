@@ -1,20 +1,19 @@
 * {
-    max-width: 99vw;
+    max-width: 100vw;
     text-align: center;
   }
   html{
     scroll-behavior: smooth;
   }
 
-/*Bootstrap Jumbotron Styling*/
-.jumbotron{
-	background-image: url('../images/codingBackground.jpg');
+ /*Bootstrap Jumbotron Styling*/
+ .jumbotron{
+	background-image: url('../images/macOntable-min-square-min.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
-    opacity: .85;
-    padding: 100px;
-    margin-bottom: 1.2em;
-    
+    padding: 225px;
+    margin-bottom: 1.5em;
+    opacity: .8;
 }
 /*Element Styling*/
 body{
@@ -30,6 +29,7 @@ h1
 h2{
     color:black;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    padding-top: 100px;
 }
 p{
     color:black;
@@ -38,6 +38,9 @@ p{
     line-height: 1.65em;
 }
 
+#contactInfo img {
+    width: 3em;
+}
 
 /*Hover effects for GitHub, Link, and Facebook*/
 .githubLogo{
@@ -68,6 +71,71 @@ p{
     opacity: 0.5;
 }
 
+/*MEDIA QUERIES------------------------------------------*/
+@media (min-width: 768px){
+
+ /*Bootstrap Jumbotron Styling*/
+ .jumbotron{
+	background-image: url('../images/macOntable-min-square-min.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    padding: 225px;
+    margin-bottom: 1.5em;
+    opacity: .8;
+}
+h1
+{
+    color:black;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 6.5em;
+}
+h2{
+        color:black;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        font-size: 3em;
+}
+p{
+        color:black;
+        font-family: 'Roboto', 'Times New Roman', Times, serif;
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+/*Hover effects for GitHub, Link, and Facebook*/
+.githubLogo{
+    opacity: 1.5;
+    transition: 0.3s;
+}     
+.githubLogo:hover{
+    transform: scale(1.4);
+    opacity: 0.5;
+}
+
+.linkLogo{
+    opacity: 1.5;
+    transition: 0.3s;
+}
+
+.linkLogo:hover{
+    transform: scale(1.4);
+    opacity: 0.5;
+}
+
+.facebookLogo{
+    opacity: 1.5;
+    transition: 0.3s;
+}
+.facebookLogo:hover{
+    transform: scale(1.4);
+    opacity: 0.5;
+}
+    
+
+}
+
+@media (min-width: 1024px){
+  
+   
+}
 /* Side Scroll Bar-------------------------------------------------------------------------*/
 ::-webkit-scrollbar-track
 {
@@ -87,18 +155,4 @@ p{
     border-radius: 10px;
     background-color: azure;
     background-image: -webkit-linear-gradient(90deg,transparent rgba(0, 0, 0, 0.4) 50%, transparent, transparent)
-}
-footer{
-    position: absolute;
-    bottom: 0;
-}
-@media (min-width: 768px){
-
-    
-
-}
-
-@media (min-width: 1024px){
-  
-   
 }
