@@ -46,7 +46,7 @@ h4{
 /*STYLING FOR MADE WITH:*/
 h5{
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  padding-top: 25px;
+  margin-top: auto;
 }
 /*P element for the ABout ME section*/
 p{
@@ -115,11 +115,12 @@ img:hover {
 .project{
   display:flex;
   flex-direction:column;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 .project img{
   padding: 25px;
-} 
+}
+
 .btnContainer{
   margin-top: auto;
   display: inline-block;
@@ -279,13 +280,20 @@ section p{
   max-width: 25vw;
   padding: 0;
 }
+#chucksLogo{
+  max-width: 30vw;
+}
+#pixelPic{
+  padding-bottom: 40px;
+}
 /* h4 and P element for the Favorite Project section*/
 .project p{
   margin: 2px;
   font-size: 1.4em;
 }
-.buttonContainer{
-  bottom: 0px;
+
+.langContainer{
+  margin-top: 30%;
 }
 .project button{
   max-width: 175px;
