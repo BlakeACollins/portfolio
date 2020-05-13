@@ -39,7 +39,6 @@ h3{
   font-size: 3em;
   padding-top: 30px;
   padding-bottom: 15px;
-
 }
 h4{
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -65,7 +64,6 @@ p{
 .project p{
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1.5em;
-  
 }
 /*h3 element styling for project titles and languages used*/
 .project h3{
@@ -79,7 +77,6 @@ hr{
 .langUsed{
   padding-bottom: 45px;
 }
-
 /*Hover effects for GitHub, Link, and Facebook*/
 .githubLogo{
   opacity: 1;
@@ -89,17 +86,14 @@ hr{
   transform: scale(1.2);
   opacity: 0.5;
 }
-
 .linkLogo{
   opacity: 1;
   transition: 0.4s;
 }
-
 .linkLogo:hover{
   transform: scale(1.2);
   opacity: 0.5;
 }
-
 .facebookLogo{
   opacity: 1;
   transition: 0.4s;
@@ -108,10 +102,8 @@ hr{
   transform: scale(1.2);
   opacity: 0.5;
 }
-
 img {
   align-items: center;
-  
 }
 img:hover {
   transform: scale(1);
@@ -125,7 +117,6 @@ img:hover {
   flex-direction:column;
   padding-bottom: 25px;
 }
-
 .project img{
   padding: 25px;
 } 
@@ -146,17 +137,14 @@ img:hover {
   cursor: pointer;
   transition-duration: 0.4s;
 }
-
 .project button:hover {
   background-color: steelblue;
   color: white;
 }
-
 footer{
   margin: 10px;
 }
-
-/*Media Query-------------------------------------------------*/
+/*Media Query---------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 768px) {
 
@@ -184,66 +172,55 @@ p{
   font-size: 1.8em;
   padding: 5px;
 }
-
 .project p{
   font-size: 1.8em;
 }
-
-
 #projectHeading{
   padding-top: 125px;
 }
-  img {
-    transition-duration: .5s;
-  }
-  
-  .project {
-   
-    margin: 25px;
-  }
-
-  #portfolio{
-    font-size:2em;
-  }
- 
-  img:hover {
-    transform: scale(1.1);
-  }
-  .project img{
-    padding: 75px;
-  }
-  .project button{
-    text-align: center;
-    padding: 18px 30px;
-    background-color: white;
-    font-size: 1.2em;
-    color: black;
-    border: none;
-    text-decoration: none;
-    border-radius: 35px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    overflow: hidden;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    
-  }
-  
-  .project button:hover {
-    background-color: steelblue;
-    color: white;
-  }
-
-  .contactInfo p{
-    margin: 10px;
-    font-size: 2em;
-  }
+img {
+  transition-duration: .5s;
+}
+.project {
+  margin: 25px;
+}
+#portfolio{
+  font-size:2em;
+}
+ img:hover {
+  transform: scale(1.1);
+}
+.project img{
+  padding: 75px;
+}
+.project button{
+  max-width: 175px;
+  background-color: white;
+  font-size: 1em;
+  color: black;
+  border: none;
+  text-decoration: none;
+  border-radius: 35px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  overflow: hidden;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.project button:hover {
+  background-color: steelblue;
+  color: white;
+}
+.contactInfo p{
+  margin: 10px;
+  font-size: 2em;
+}
 }
 
-/*Media Query-------------------------------------------------*/
+/*Media Query----------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
 
-    /*Bootstrap Jumbotron Styling*/
+/*Bootstrap Jumbotron Styling*/
 .jumbotron{
   background-image: url('../images/seattleSky-min.jpg');
   background-size: cover;
@@ -268,7 +245,6 @@ h3{
   padding-top: 75px;
 }
 /*Styling for About Me*/
-
 .aboutMe h3{
    padding-top: 150px;
    padding-bottom: 25px;
@@ -286,14 +262,12 @@ p{
 }
 section h3{
   font-size: 2.5em;
-  
 }
 section p{
   font-size: 1.8em;
 }
 .project {
   width: 25vw;
-  
 }
 .portfolio-container{
   display: flex;
@@ -305,9 +279,7 @@ section p{
   max-width: 25vw;
   padding: 0;
 }
-
 /* h4 and P element for the Favorite Project section*/
-
 .project p{
   margin: 2px;
   font-size: 1.4em;
@@ -316,9 +288,8 @@ section p{
   bottom: 0px;
 }
 .project button{
-  text-align: center;
-  padding: 10px 24px;
-  background-color: azure;
+  max-width: 175px;
+  background-color: white;
   font-size: 1em;
   color: black;
   border: none;
@@ -329,7 +300,6 @@ section p{
   cursor: pointer;
   transition-duration: 0.4s;
 }
-
 .project button:hover {
   background-color: steelblue;
   color: white;
@@ -339,10 +309,7 @@ section p{
   font-size: 1.6em;
   padding: 25px;
 }
-  
-
 }
-
 /* Side Scroll Bar-------------------------------------------------------------------------*/
 ::-webkit-scrollbar-track
 {
@@ -350,13 +317,11 @@ section p{
     border-radius: 10px;
     background-color: grey;
 }
-
 ::-webkit-scrollbar
 {
     width: 12px;
     background-color: #F5F5F5;
 }
-
 ::-webkit-scrollbar-thumb
 {
     border-radius: 10px;
