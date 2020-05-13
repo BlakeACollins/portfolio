@@ -1,10 +1,10 @@
 * {
     max-width: 100vw;
     text-align: center;
-  }
-  html{
+}
+html{
     scroll-behavior: smooth;
-  }
+}
 
 /*Bootstrap Jumbotron Styling*/
 .jumbotron{
@@ -38,16 +38,13 @@ body{
     background-color: steelblue;
     color: white;
 }
-
-h1
-{
+h1{
     color:black;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: bolder; 
     font-size: 3em;  
 }
-
 h2{
     color:black;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -78,12 +75,10 @@ ul{
     line-height: 1.8em;
     padding-right: 15px;
 }
-
 footer{
     max-width: 100vw;
     margin-top: 45px;
 }
-
 /*Hover effects for GitHub, Link, and Facebook*/
 .githubLogo{
     opacity: 1.5;
@@ -93,17 +88,14 @@ footer{
     transform: scale(1.2);
     opacity: 0.5;
 }
-
 .linkLogo{
     opacity: 1.5;
     transition: 0.3s;
 }
-
 .linkLogo:hover{
     transform: scale(1.2);
     opacity: 0.5;
 }
-
 .facebookLogo{
     opacity: 1.5;
     transition: 0.3s;
@@ -112,127 +104,110 @@ footer{
     transform: scale(1.2);
     opacity: 0.5;
 }
-
 @media (min-width: 768px){
-    /*Bootstrap Jumbotron Styling*/
-    .jumbotron{
+/*Bootstrap Jumbotron Styling*/
+.jumbotron{
 	background-image: url('../images/macOntable-min-square-min.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
     padding: 200px;
     margin-bottom: 1.5em;
     opacity: .8;
-}
-    
-h1
-{
+}  
+h1{
     color:black;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 6em;
-    
 }
 h2{
-        color:black;
-        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-        font-size: 5em;
+    color:black;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 5em;
 }
 h3{
-        color:black;
-        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-        font-size: 3em;
-        padding-top: 100px;
+    color:black;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding-top: 100px;
 }
 p{
-        color:black;
-        font-family: 'Roboto', Arial, Helvetica, sans-serif;
-        font-size: 2.2em;
-        line-height: 1.75em;
-        margin: 10px;
-        padding: 10px;
-    }
-    #resumeButton{
-        text-align: center;
-        margin: 25px;
-        padding: 20px 48px;
-        background-color: white;
-        font-size: 1.2em;
-        color: black;
-        border: none;
-        text-decoration: none;
-        border-radius: 35px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        overflow: hidden;
-        cursor: pointer;
-        transition-duration: 0.4s;
-    }
-    #resumeButton:hover{
-        background-color: steelblue;
-        color: white;
-    }
-
-
+    color:black;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+    line-height: 1.75em;
+    margin: 10px;
+    padding: 10px;
 }
-
+#resumeButton{
+    text-align: center;
+    margin: 25px;
+    padding: 20px 48px;
+    background-color: white;
+    font-size: 1.2em;
+    color: black;
+    border: none;
+    text-decoration: none;
+    border-radius: 35px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    overflow: hidden;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+#resumeButton:hover{
+    background-color: steelblue;
+    color: white;
+}
+}
 @media (min-width: 1024px){
-     /*Bootstrap Jumbotron Styling*/
-     .jumbotron{
-        background-image: url('../images/macOntable-min-square-min.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 222px;
-        margin-bottom: 2em;
-        opacity: .8;
-    }
-        
-    h1
-    {
-        color:black;
-        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-        font-size: 6em;
-        
-    }
-    h2{
-            color:black;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            font-size: 5em;
-    }
-    h3{
-            color:black;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            font-size: 3em;
-            padding-top: 100px;
-    }
-    p{
-            color:black;
-            font-family: 'Roboto', Arial, Helvetica, sans-serif;
-            display: inline-block;
-            max-width: 80%;
-            height: 1.5em;
-            font-size: 1.6em;
-   
+/*Bootstrap Jumbotron Styling*/
+.jumbotron{
+    background-image: url('../images/macOntable-min-square-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 222px;
+    margin-bottom: 2em;
+    opacity: .8;
+}
+h1{
+    color:black;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 6em;
+}
+h2{
+    color:black;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 5em;
+}
+h3{
+    color:black;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding-top: 100px;
+}
+p{
+    color:black;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    display: inline-block;
+    max-width: 80%;
+    height: 1.5em;
+    font-size: 1.6em;
 }
 hr{
     margin-left: 225px;
     margin-right: 225px;
 }
 }
-
 /* Side Scroll Bar-------------------------------------------------------------------------*/
-::-webkit-scrollbar-track
-{
+::-webkit-scrollbar-trac{
     box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
     border-radius: 10px;
     background-color: grey;
 }
-
-::-webkit-scrollbar
-{
+::-webkit-scrollbar{
     width: 12px;
     background-color: #F5F5F5;
 }
-
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb{
     border-radius: 10px;
     background-color: azure;
     background-image: -webkit-linear-gradient(90deg,transparent rgba(0, 0, 0, 0.4) 50%, transparent, transparent)

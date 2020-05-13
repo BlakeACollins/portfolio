@@ -1,13 +1,12 @@
 * {
     max-width: 100vw;
     text-align: center;
-  }
-  html{
+}
+html{
     scroll-behavior: smooth;
-  }
-
- /*Bootstrap Jumbotron Styling*/
- .jumbotron{
+}
+/*Bootstrap Jumbotron Styling*/
+.jumbotron{
 	background-image: url('../images/macOntable-min-square-min.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
@@ -19,14 +18,11 @@
 body{
    background-color: lightgrey;
 }
-
-h1
-{
+h1{
     color:black;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 4em;
 }
-
 h2{
     color:black;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -38,11 +34,9 @@ p{
     font-size: 1.45em;
     line-height: 1.65em;
 }
-
 #contactInfo img {
     width: 3em;
 }
-
 /*Hover effects for GitHub, Link, and Facebook*/
 .githubLogo{
     opacity: 1;
@@ -52,17 +46,14 @@ p{
     transform: scale(1.2);
     opacity: 0.5;
 }
-
 .linkLogo{
     opacity: 1;
     transition: 0.3s;
 }
-
 .linkLogo:hover{
     transform: scale(1.2);
     opacity: 0.5;
 }
-
 .facebookLogo{
     opacity: 1;
     transition: 0.3s;
@@ -71,12 +62,10 @@ p{
     transform: scale(1.2);
     opacity: 0.5;
 }
-
 /*MEDIA QUERIES------------------------------------------*/
 @media (min-width: 768px){
-
- /*Bootstrap Jumbotron Styling*/
- .jumbotron{
+/*Bootstrap Jumbotron Styling*/
+.jumbotron{
 	background-image: url('../images/macOntable-min-square-min.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
@@ -84,23 +73,22 @@ p{
     margin-bottom: 1.5em;
     opacity: .8;
 }
-h1
-{
+h1{
     color:black;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 6.5em;
 }
 h2{
-        color:black;
-        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-        font-size: 3em;
+    color:black;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3em;
 }
 p{
-        color:black;
-        font-family: 'Roboto', Arial, Helvetica, sans-serif;
-        font-size: 2em;
-        line-height: 1.5em;
-    }
+    color:black;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
+}
 /*Hover effects for GitHub, Link, and Facebook*/
 .githubLogo{
     opacity: 1.5;
@@ -110,17 +98,14 @@ p{
     transform: scale(1.4);
     opacity: 0.5;
 }
-
 .linkLogo{
     opacity: 1.5;
     transition: 0.3s;
 }
-
 .linkLogo:hover{
     transform: scale(1.4);
     opacity: 0.5;
 }
-
 .facebookLogo{
     opacity: 1.5;
     transition: 0.3s;
@@ -129,13 +114,10 @@ p{
     transform: scale(1.4);
     opacity: 0.5;
 }
-    
-
 }
 
 @media (min-width: 1024px){
-  
-   
+
 }
 /* Side Scroll Bar-------------------------------------------------------------------------*/
 ::-webkit-scrollbar-track
