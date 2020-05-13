@@ -7,16 +7,17 @@ html{
 }
 /*Bootstrap Jumbotron Styling*/
 .jumbotron{
+  max-width: 100vw;
 	  background-image: url('../images/seattleSky-min.jpg');
   	background-size: cover;
     background-repeat: no-repeat;
     opacity: .8;
-    padding: 100px;
+    padding: 125px;
     margin-bottom: 1.5em;
     text-align: center;
 }
 body {
-  
+  margin: 1px;
   background: lightgrey;
 }
 /*Hello, I'm Blake.*/ 
@@ -31,13 +32,21 @@ h2{
   font-size: 4em;
   padding: 75px;
 }
-/* About me, PROJECT TITLE AND LANGUAGES USED TITLE*/
+/* About me, PROJECT TITLE LANGUAGES USED TITLE*/
 h3{
   text-align: center;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 3em;
   padding-top: 30px;
   padding-bottom: 15px;
+/*LANGUAGES USED*/
+}
+h4{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+h5{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  padding-top: 25px;
 }
 /*P element for the ABout ME section*/
 p{
@@ -141,7 +150,7 @@ footer{
   margin: 10px;
 }
 
-/*Media Query----------------------------*/
+/*Media Query-------------------------------------------------*/
 
 @media screen and (min-width: 768px) {
 
@@ -155,9 +164,12 @@ footer{
   margin-bottom: 1.2em;
   text-align: center;
 }
+h1{
+  font-size: 5.5em;
+}
 h3{
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  font-size: 4em;
+  font-size: 3em;
   padding-top: 75px;
 }
 p{
@@ -166,15 +178,11 @@ p{
   font-size: 1.8em;
   padding: 5px;
 }
-.project h3{
-  font-size: 2.75em;
-}
+
 .project p{
   font-size: 1.8em;
 }
-hr{
-  margin: 45px;
-}
+
 
 #projectHeading{
   padding-top: 125px;
@@ -183,13 +191,12 @@ hr{
     transition-duration: .5s;
   }
   .project {
-    width: 75vw;
-    margin:auto;
+    width: 100vw;
+    margin: 0;
   }
 
-  
   .project img {
-    max-width: 100%;
+    max-width: 75vw;
   }
 
   #portfolio{
@@ -198,6 +205,11 @@ hr{
  
   img:hover {
     transform: scale(1.1);
+  }
+  .portfolio-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
   }
   .project button{
     text-align: center;
@@ -212,46 +224,121 @@ hr{
     overflow: hidden;
     cursor: pointer;
     transition-duration: 0.4s;
+    
   }
   
   .project button:hover {
     background-color: steelblue;
     color: white;
   }
+
+  .contactInfo p{
+    margin: 10px;
+    font-size: 2em;
+  }
 }
 
-
+/*Media Query-------------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
 
-  body {
-    padding-bottom: 0;
-    padding-top: 25px;
-  }
+    /*Bootstrap Jumbotron Styling*/
+.jumbotron{
+  background-image: url('../images/seattleSky-min.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .8;
+  padding: 200px;
+  margin-bottom: 1.2em;
+  text-align: center;
+}
+hr{
+  display: none;
+}
+#profilePic{
+  margin: 20px;
+  max-width: 30vw;
+}
+h1{
+  font-size: 5em;
+}
+h3{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  padding-top: 75px;
+}
+/*Styling for About Me*/
 
+.aboutMe h3{
+   padding-top: 150px;
+   padding-bottom: 25px;
+}
+p{
+  /*P element for the About ME section*/
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 1.3em;
+  padding: 5px;
+}
+/*h3 and P element styling for Languages and Tools Used*/
+#listSection{
+  display: flex;
+  justify-content: space-around;
+}
+section h3{
+  font-size: 2.5em;
   
-  .portfolio-container {
-    margin-bottom: 100px;
-  }
+}
+section p{
+  font-size: 1.8em;
+}
+.project {
+  width: 25vw;
+  
+}
+.portfolio-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.project img {
+  max-width: 25vw;
+}
 
-  .project:nth-child(even) {
-    margin-right: initial;
-  }
+/* h4 and P element for the Favorite Project section*/
 
-  .project.proj-1,
-  .project.proj-2,
-  .project.proj-4,
-  .project.proj-5 {
-    margin-right: 5%;
-  }
+.project p{
+  margin: 2px;
+  font-size: 1.4em;
+}
+.buttonContainer{
+  bottom: 0px;
+}
+.project button{
+  
+  text-align: center;
+  padding: 10px 24px;
+  background-color: azure;
+  font-size: 1em;
+  color: black;
+  border: none;
+  text-decoration: none;
+  border-radius: 35px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  overflow: hidden;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
 
-  .project {
-    width: 30%;
-  }
+.project button:hover {
+  background-color: steelblue;
+  color: white;
+}
 
-  .project img {
-    max-width: 100%;
-  }
+.contactInfo p {
+  font-size: 1.6em;
+  padding: 25px;
+}
+  
 
 }
 
