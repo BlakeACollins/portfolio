@@ -39,11 +39,12 @@ h3{
   font-size: 3em;
   padding-top: 30px;
   padding-bottom: 15px;
-/*LANGUAGES USED*/
+
 }
 h4{
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
+/*STYLING FOR MADE WITH:*/
 h5{
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   padding-top: 25px;
@@ -64,8 +65,7 @@ p{
 .project p{
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1.5em;
-  padding-left: 10px;
-  padding-right: 10px;
+  
 }
 /*h3 element styling for project titles and languages used*/
 .project h3{
@@ -111,24 +111,30 @@ hr{
 
 img {
   align-items: center;
-  max-width: 96vw;
+  
 }
 img:hover {
   transform: scale(1);
 }
-
 .portfolio-container {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
-.project {
+/*Gave the Project "card" the display of flex so that I could make the LEARN MORE and VISIT SITE buttons sit at the bottem of the div.*/ 
+.project{
+  display:flex;
+  flex-direction:column;
   padding-bottom: 25px;
 }
+
 .project img{
-  padding: 20px;
+  padding: 25px;
 } 
+.btnContainer{
+  margin-top: auto;
+  display: inline-block;
+}
 .project button{
-  text-align: center;
-  padding: 10px 24px;
+  max-width: 175px;
   background-color: white;
   font-size: 1em;
   color: black;
@@ -190,13 +196,10 @@ p{
   img {
     transition-duration: .5s;
   }
+  
   .project {
-    width: 100vw;
-    margin: 0;
-  }
-
-  .project img {
-    max-width: 75vw;
+   
+    margin: 25px;
   }
 
   #portfolio{
@@ -206,10 +209,8 @@ p{
   img:hover {
     transform: scale(1.1);
   }
-  .portfolio-container{
-    display: flex;
-    flex-flow: column wrap;
-    align-content: center;
+  .project img{
+    padding: 75px;
   }
   .project button{
     text-align: center;
@@ -302,6 +303,7 @@ section p{
 }
 .project img {
   max-width: 25vw;
+  padding: 0;
 }
 
 /* h4 and P element for the Favorite Project section*/
@@ -314,7 +316,6 @@ section p{
   bottom: 0px;
 }
 .project button{
-  
   text-align: center;
   padding: 10px 24px;
   background-color: azure;
