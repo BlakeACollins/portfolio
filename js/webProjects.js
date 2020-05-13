@@ -4,7 +4,7 @@
 //----PIXEL ART PROJECT PROJECT 1------------
 const pixelArt = {
 	  projectTitle:"Pixel Art Maker",
-      projectDes: "A single-page web app that allows users to draw pixel art on a customizable canvas.",
+      projectDes: "I created a single-page web app that allows users to draw pixel art on a customizable canvas. Still an on-going project. I would like to add a save your canvas function.",
       langUsed: "HTML5, CSS3, JavaScript"
 };
 document.getElementById("project1").innerHTML = pixelArt.projectTitle;
@@ -14,7 +14,7 @@ document.getElementById("lang1").innerHTML = pixelArt.langUsed;
 //--NUN CHUCK BREWING PROJECT 2---------------
 const nunChucks = {
 	  projectTitle:"Nun Chuck's Brewing",
-    projectDes: "This was my first freelance job. I was approached by a local craft brewer to design and build his website.",
+    projectDes: " This was my first freelance job. I was approached by a local craft brewer to design and build his website. Great learning experience! ",
     langUsed: "HTML5 and CSS3"
 };
 document.getElementById("project2").innerHTML = nunChucks.projectTitle;
@@ -24,7 +24,7 @@ document.getElementById("lang2").innerHTML = nunChucks.langUsed;
 //--Random Employee API PROJECT 3---------------
 const randomAPI = {
 	  projectTitle:"Random Employee API",
-    projectDes: "I made a single page app that pulls and parses data from a 3rd party API and manipulates the HTML DOM using JavaScript.",
+    projectDes: "A single page app that pulls and parses data from a 3rd party API and manipulates the HTML DOM using JavaScript. Employees are displayed in a modal window.",
     langUsed: "HTML5, CSS3, JavaScript, JSON"
 };
 document.getElementById("project3").innerHTML = randomAPI.projectTitle;
@@ -44,7 +44,7 @@ document.getElementById("lang4").innerHTML = webApp.langUsed;
 //--GAME SHOW PROJECT 5---------------
 const gameShow = {
     projectTitle: "Game Show",
-    projectDes: "I created a word guessing game where players click letters from an onscreen keyboard and try to guess a random phrase.",
+    projectDes: "I created a word guessing game where players click letters from an onscreen keyboard and try to guess a random phrase. You only get five chances!",
     langUsed: "HTML5, CSS3, JavaScript"
 };
 document.getElementById("project5").innerHTML = gameShow.projectTitle;
@@ -53,7 +53,7 @@ document.getElementById("lang5").innerHTML = gameShow.langUsed;
 
 //--INTERACTIVE PHOTO GALLERY PROJECT 6----------------
 const interactivePhoto = {
-  projectTitle: "Interactive Photo Gallery",
+  projectTitle: "Photo Gallery",
   projectDes: "I created an interactive photo gallery using JavaScript and jQuery. When the user clicks on a thumbnail, the photo will display in a shadow box.",
   langUsed: "HTML5, CSS3, JavaScript, jQuery"
 };
@@ -84,7 +84,7 @@ document.getElementById("lang8").innerHTML = styleGuide.langUsed;
 //--ROCK, PAPER, SCISSORS PROJECT 9------
 const rsp = {
   projectTitle: "Rock, Paper, Scissors",
-  projectDes: "Rock, Paper, Scissors game with Python! This is a CL game. Please download and cd into the local file that it is stored.",
+  projectDes: "Rock, Paper, Scissors game with Python! This is a command line game with four differrent game modes. Please download and cd into the local file that it was downloaded to.",
   langUsed: "Python"
 };
 document.getElementById("project9").innerHTML = rsp.projectTitle;
