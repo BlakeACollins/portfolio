@@ -1,0 +1,149 @@
+* {
+  max-width: 100vw;
+}
+html{
+  scroll-behavior: smooth;
+}
+/*Bootstrap Jumbotron Styling*/
+.jumbotron{
+    max-width: 100vw;
+	  background-image: url('../images/seattleSky-min.jpg');
+  	background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+    opacity: .8;
+}
+body {
+  background: #f8f8ff;
+}
+/*Hello, I'm Blake.*/ /*I develope websites.*/
+h1{
+  font-family:'Open Sans', Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 4em;
+  font-weight: 700;
+}
+/*ABOUT ME and FAVORITE PROJECTS*/
+h2{
+  font-family:'Open Sans', Arial, Helvetica, sans-serif;;
+  font-size: 3em;
+}
+/* About me, PROJECT TITLE LANGUAGES USED TITLE*/
+h3{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  color: black;
+}
+h4{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/*P element for the ABout ME section*/
+p{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+}
+hr{
+  margin: 75px;
+}
+/*ABOUT ME HEADING*/
+#aboutMeHeading{
+  margin-top:75px;
+}
+/*ABOUT ME SECTION*/
+.aboutMeSection{
+  margin: 15px;
+}
+/*MY PICTURE*/
+#profilePic{
+  max-width: 35vw;
+}
+/*Hover effects for GitHub, Link, and Facebook*/
+.githubLogo{
+  opacity: 1;
+  transition: 0.4s;
+}     
+.githubLogo:hover{
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+.linkLogo{
+  opacity: 1;
+  transition: 0.4s;
+}
+.linkLogo:hover{
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+.facebookLogo{
+  opacity: 1;
+  transition: 0.4s;
+}
+.facebookLogo:hover{
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+/* TOOLS USED*/
+.tools{
+  margin-top: 35px;
+}
+/*FAVORITE PROJECTS TITLE*/
+#projectHeading{
+  margin-top:125px;
+  margin-bottom: 75px;
+}
+
+/*----MEDIA QUERIES-----------------------------------------------------------------*/
+@media (min-width: 768px){
+/*Bootstrap Jumbotron Styling*/
+.jumbotron{
+  max-width: 100vw;
+  background-image: url('../images/seattleSky-min.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px;
+  opacity: .8;
+}
+/*Hello, I'm Blake.*/ 
+h1{
+  font-family:'Open Sans', Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+/*ABOUT ME and FAVORITE PROJECTS*/
+h2{
+  font-family:'Open Sans', Arial, Helvetica, sans-serif;;
+  font-size: 3.5em;
+}
+/*P element for the ABout ME section*/
+p{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 1.8em;
+}
+}
+/*----MEDIA QUERIES-----------------------------------------------------------------*/
+@media (min-width: 1024px){
+  /*P element for the ABout ME section*/
+p{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+}
+}
+/* Side Scroll Bar-------------------------------------------------------------------------*/
+::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+    border-radius: 10px;
+    background-color: grey;
+}
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: steelblue;
+    background-image: -webkit-linear-gradient(90deg,transparent rgba(0, 0, 0, 0.4) 50%, transparent, transparent)
+}
