@@ -1,3 +1,3 @@
-# Personal Portfolio
+Created by Codrops
 
-Hello and welcome! This is the source code for my personal web site. 
+Please read about our license: http://tympanus.net/codrops/licensing/
