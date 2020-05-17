@@ -127,6 +127,15 @@ p{
 }
 /*----MEDIA QUERIES-----------------------------------------------------------------*/
 @media (min-width: 1024px){
+  /*Bootstrap Jumbotron Styling*/
+.jumbotron{
+  max-width: 100vw;
+  background-image: url('../images/seattleSky-min.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 175px;
+  opacity: .8;
+}
   /*P element for the ABout ME section*/
 p{
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
