@@ -1,5 +1,6 @@
+
+/*THUMB NAIL IMAGE STYLING*/
 #randomAPIThumb,
-#NunChuckThumb,
 #webAppThumb,
 #photoThumb,
 #gameShowThumb,
@@ -10,9 +11,12 @@
 #onlineRegThumb,
 #mockUpThumb,
 #personalV1Thumb{
-	width: 245px;
+	width: 250px;
 }
-
+#NunChuckThumb{
+	max-width: 260px;
+}
+/*STYLING FOR LIST GRID*/
 .og-grid {
 	list-style: none;
 	padding: 20px 0;
@@ -27,7 +31,7 @@
 	vertical-align: top;
 	height: 250px;
 }
-
+/*IMAGE POSTIONS FOR THUMBNAAIL AND EXPANED PIC*/
 .og-grid li > a,
 .og-grid li > a img {
 	border: none;
@@ -35,7 +39,7 @@
 	display: block;
 	position: relative;
 }
-
+/*STYLING FOR >*/
 .og-grid li.og-expanded > a::after {
 	top: auto;
 	border: solid transparent;
@@ -44,15 +48,15 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #ddd;
+	border-bottom-color: #999;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
 }
-
+/* STYLING FOR THE EXPANDING BOX*/
 .og-expander {
 	position: absolute;
-	background: lightgray;
+	background: #999;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -66,7 +70,7 @@
 	padding: 50px 30px;
 	height: 100%;
 }
-
+/*CLOSE BUTTON*/
 .og-close {
 	position: absolute;
 	width: 40px;
@@ -74,9 +78,7 @@
 	top: 20px;
 	right: 20px;
 	cursor: pointer;
-	
 }
-
 .og-close::before,
 .og-close::after {
 	content: '';
@@ -100,7 +102,7 @@
 .og-close:hover::after {
 	background: steelblue;
 }
-
+/*EXPANDED PORJECT PICTURE AND DESCRIPTION OF PROJECT*/
 .og-fullimg,
 .og-details {
 	width: 50%;
@@ -109,36 +111,37 @@
 	overflow: hidden;
 	position: relative;
 }
-
+/*EXPANDED PROJECT DESCRIPTION*/
 .og-details {
 	padding: 0 40px 0 20px;
+	line-height: 1.6em;
 	
 }
-
+/*EXPANDED PORJECT IMAGE*/
 .og-fullimg {
 	text-align: center;
 }
-
+/*PORJECT IMAGE*/
 .og-fullimg img {
 	display: inline-block;
 	max-height: 100%;
 	max-width: 100%;
 }
-
+/*PROJECT TITLE*/
 .og-details h3 {
 	font-weight: 300;
 	font-size: 52px;
 	padding: 40px 0 10px;
 	margin-bottom: 5px;
 }
-
+/*PROJECT DESCRIPTION*/
 .og-details p {
 	font-weight: 400;
 	font-size: 1.4em;
 	line-height: 22px;
 	
 }
-
+/*STYLING FOR VISIT SITE BUTTON*/
 .og-details a {
 	font-weight: 700;
 	font-size: 16px;
